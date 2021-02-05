@@ -4,7 +4,7 @@ plugins {
     id 'org.jetbrains.kotlin.multiplatform' version '1.4.10'
     id 'maven-publish'
 }
-group = 'com.mdrew.kofero'
+group = 'com.kofero'
 version = '0.0.001-SNAPSHOT'
 
 repositories {
@@ -20,14 +20,17 @@ kotlin {
             useJUnit()
         }
     }
+    ios("ios"){
+    }
+
 
     sourceSets {
         commonMain {}
         jvmTest {
             dependencies {
+                commonMain
                 implementation kotlin('test-junit')
             }
         }
     }
-
 }
