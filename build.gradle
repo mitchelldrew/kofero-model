@@ -4,8 +4,9 @@ plugins {
     id 'org.jetbrains.kotlin.multiplatform' version '1.4.10'
     id 'maven-publish'
 }
-group = 'com.kofero'
-version = '0.0.003'
+
+group = 'ro.kofe'
+version = '0.0.004'
 
 repositories {
     mavenCentral()
@@ -20,8 +21,7 @@ kotlin {
             useJUnit()
         }
     }
-    ios("ios"){
-    }
+    ios("ios")
 
 
     sourceSets {
