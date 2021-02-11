@@ -1,5 +1,5 @@
 .DS_Store
-.gradle/
+.gradle/*
 .idea/
 .idea/shelf
 /confluence/target

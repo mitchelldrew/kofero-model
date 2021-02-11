@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'ro.kofe'
-version = '0.0.008'
+version = '0.0.009'
 
 repositories {
     mavenCentral()
@@ -21,7 +21,6 @@ kotlin {
             useJUnit()
         }
     }
-    iosArm32("iosA32")
     iosArm64("iosA64")
     iosX64("iosX64")
 
