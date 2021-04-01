@@ -1,3 +1,3 @@
 package ro.kofe.model
 
-data class Character(val id:Int, val name:String, val health:Int, val moveIds:List<Int>, val iconUrl:String)
+class Character(id:Int, val name:String, val health:Int, val moveIds:List<Int>, val iconUrl:String): ModelObj(id)

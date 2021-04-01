@@ -1,3 +1,3 @@
 package ro.kofe.model
 
-data class Game(val id:Int, val name:String, val characterIds:List<Int>, val iconUrl:String)
+class Game(id: Int, val name:String, val characterIds:List<Int>, val iconUrl:String): ModelObj(id)
