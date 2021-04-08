@@ -24,6 +24,6 @@ class Character(id:Int, val name:String, val health:Int, val moveIds:List<Int>, 
     }
 
     override fun toString(): String {
-        return "Character(name='$name', health=$health, moveIds=$moveIds, iconUrl='$iconUrl')"
+        return "Character(id= '$id', name='$name', health=$health, moveIds=$moveIds, iconUrl='$iconUrl')"
     }
 }

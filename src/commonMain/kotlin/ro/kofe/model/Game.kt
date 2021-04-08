@@ -22,6 +22,6 @@ class Game(id: Int, val name:String, val characterIds:List<Int>, val iconUrl:Str
     }
 
     override fun toString(): String {
-        return "Game(name='$name', characterIds=$characterIds, iconUrl='$iconUrl')"
+        return "Game(id='$id', name='$name', characterIds=$characterIds, iconUrl='$iconUrl')"
     }
 }
