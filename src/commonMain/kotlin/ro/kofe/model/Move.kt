@@ -1,6 +1,6 @@
 package ro.kofe.model
 
-class Move(id:Int, val name:String, val startup:String, val active:String, val recovery:String, val hitAdv:String, val blockAdv:String, val notes:String): Obj(id) {
+class Move(uid:Int, val name:String, val startup:String, val active:String, val recovery:String, val hitAdv:String, val blockAdv:String, val notes:String): Obj(uid) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is Move) return false
@@ -30,6 +30,6 @@ class Move(id:Int, val name:String, val startup:String, val active:String, val r
     }
 
     override fun toString(): String {
-        return "Move(id='$id', name='$name', startup='$startup', active='$active', recovery='$recovery', hitAdv='$hitAdv', blockAdv='$blockAdv', notes='$notes')"
+        return "Move(uid='$uid', name='$name', startup='$startup', active='$active', recovery='$recovery', hitAdv='$hitAdv', blockAdv='$blockAdv', notes='$notes')"
     }
 }

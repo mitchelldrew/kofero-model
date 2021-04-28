@@ -1,6 +1,6 @@
 package ro.kofe.model
 
-class Game(id: Int, val name:String, val characterIds:List<Int>, val iconUrl:String): Obj(id) {
+class Game(uid: Int, val name:String, val characterIds:List<Int>, val iconUrl:String): Obj(uid) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is Game) return false
@@ -22,6 +22,6 @@ class Game(id: Int, val name:String, val characterIds:List<Int>, val iconUrl:Str
     }
 
     override fun toString(): String {
-        return "Game(id='$id', name='$name', characterIds=$characterIds, iconUrl='$iconUrl')"
+        return "Game(uid='$uid', name='$name', characterIds=$characterIds, iconUrl='$iconUrl')"
     }
 }
