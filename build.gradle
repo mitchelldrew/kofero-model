@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'ro.kofe'
-version = '0.0.026'
+version = '0.0.027'
 
 repositories {
     mavenCentral()
