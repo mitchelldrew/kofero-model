@@ -1,4 +1,4 @@
-package ro.kofe.model
+package ro.kofe.model.logging
 
 object LogTag {
     const val HOME_INTERACTOR = "HomeInteractor"
