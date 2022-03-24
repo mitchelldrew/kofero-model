@@ -15,6 +15,7 @@ data class Event(val view: ViewTag, val value: Value, val extras:Map<String,Any>
     }
 
     enum class ExtraKey {
+        DESTINATION_VIEW,
         GAME_ID
     }
 }
