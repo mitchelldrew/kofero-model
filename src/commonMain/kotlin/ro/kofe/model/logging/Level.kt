@@ -1,6 +1,6 @@
 package ro.kofe.model.logging
 
-enum class LogLevel {
+enum class Level {
     DEBUG,
     ALERT
 }
