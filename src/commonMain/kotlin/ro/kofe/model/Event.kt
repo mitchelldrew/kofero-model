@@ -11,7 +11,8 @@ data class Event(val view: ViewTag, val value: Value, val extras:Map<String,Any>
         VIEW_ENTERED,
         VIEW_EXITED,
         BUTTON_PRESSED,
-        ROUTING_REQUEST
+        ROUTING_REQUEST,
+        ROUTING_DENIED
     }
 
     enum class ExtraKey {
